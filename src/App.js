@@ -15,7 +15,7 @@ import { useEffect, useContext, useState } from "react";
 import { LoginContext } from "./components/ContextProvider/Context";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-export const URL="https://bulk-email-o4uq.onrender.com"
+export const URL="https://bulk-emailer-backend.vercel.app"
 
 function App() {
 
