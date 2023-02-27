@@ -1,0 +1,257 @@
+section{
+    width: 100%;
+    padding: 10px;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.aboutmailer{
+    width: 50vh;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.aboutmailer h1{
+    font-weight: 700;
+}
+
+.mailimg{
+    width: 70vh;
+    height: 50vh;
+    display:flexbox;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+section .form_data{
+    max-width: 550px;
+    min-width: 500px;
+    margin: 0px;
+    padding: 40px 40px;
+    box-shadow: 0 0 15px -10px #2d3748;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_data h1{
+    font-size: 34px;
+    color: #2a4365;
+}
+
+.form_data p{
+    color: #718096;
+    font-size: 15px;
+    margin-top:9px;
+}
+
+.form_data form{
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.form_data form .form_input input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d4d0d0;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 14px;
+    
+}
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_data form .form_input input:focus{
+    border:2px solid rgba(66, 153, 225,0.6);
+}
+
+
+.form_data form .form_input input::placeholder{
+    color: #8694a8;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top:1px;
+    padding: 7px 10px;
+    margin-right: 0px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2a4365;
+    background-color: #EDF2F7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:#1a365d;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+form .btn:hover{
+    background-color: #97a1b1;
+}
+
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a{
+    text-decoration: none;
+    color:#718096 ;
+    border-bottom: 2px solid #8694a8;
+}
+
+@media (max-width: 698px) {
+    .mailimg{
+        display:flexbox;
+        float: left;
+        width: 30vh;
+        height: 40vh;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .aboutmailer{
+        width: 30vh;
+        text-align: left;
+        align-items: center;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .section{
+    padding: 0px;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+    }
+    section .form_data{
+        max-width: 400px;
+        min-width: 300px;
+        margin: 0px;
+        border-radius: 10px;
+        display: flex;
+        box-shadow: none;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+
+    }
+    .secbut{
+        margin-top:10px;
+    }
+    .form_data form {
+        margin-top: 40px;
+        width: 110%;
+        padding: 10px 50px;
+    }
+
+    .mailimg {
+        display: flexbox;
+        float: left;
+        width: 30vh;
+        height: 40vh;
+    }    
+    
+  }
+
+  .button1 .button2{
+   color: white;
+   text-decoration: none;
+  }
+
+ .text{
+   margin-left:0px;
+   margin-top:6px;
+ }
+
+ .price{
+    padding-left:7px;
+  }
+
+  .signup{
+    background-color: rgb(232, 234, 250);
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+  }
+
+  .form_data form a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid orange;
+}
+
+.btn-outline-dark:hover {
+    --bs-btn-hover-bg: orange;
+    --bs-btn-hover-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
